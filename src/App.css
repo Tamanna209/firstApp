@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: linear-gradient(to right, rgb(223, 194, 223) , hsl(252, 78%, 81%));
+}
+header{
+  margin-top: 2px;
+  display: flex;
+  height: 48px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 7px 10px 10px  #9078ef ;
+  border: 2px solid white;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.first{
+  color:black;
+
+}
+.second{
+  color:#9078ef;
+}
+.third{
+  font-size:17px;
+}
+.div1 p b{
+  font-size: 30px;
+}
+.div1 {
+  margin-left: 20px;
+}
+
+.div2{
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.div2 input{
+  height: 33px;
+  width: 350px;
+  border-color: #9078ef;
+  border: 2.5px solid #362b63;
+  border-radius: 18px;
+  font-size: larger;
+  color: black;
+  padding-left: 10px;
+}
+.div3{
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.div3 a{
+  text-decoration: none;
+  /* margin-top: 2px; */
+  color:white;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 20px;
+  border: 2px solid #9078ef;
+  padding: 3px 7px 5px 7px;
+  border-radius: 15px;
+  background-color: #9078ef;
+  box-shadow: 0.2px 3px 5px 2px #b3a5ec;
+  /* background-image: linear-gradient(to right , white, hsl(252, 78%, 81%)); */
+}
+.div3 a:hover{
+  background-color: white;
+  color: black;
+  /* text-transform: uppercase; */
+}
+.div3 a:focus{
+  background-color: white;
+  color: black;
+  scale: 1.1;
+  /* text-transform: uppercase; */
+}
+.div4{
+  margin-top: 5px;
+  margin-left: 5px;
+}
